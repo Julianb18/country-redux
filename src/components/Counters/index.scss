@@ -1,0 +1,18 @@
+.counter {
+  background-color: rgb(204, 46, 46);
+  position: absolute;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -15px;
+  right: -25px;
+
+  &__number {
+    color: white;
+    font-weight: bolder;
+    font-size: 0.9rem;
+  }
+}

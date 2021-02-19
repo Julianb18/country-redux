@@ -1,0 +1,31 @@
+.nav-container {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgb(23, 30, 39);
+  z-index: 200;
+  transition: all 0.2s linear;
+
+  a {
+    color: white;
+  }
+  &__theme {
+    display: flex;
+
+    .nav-links {
+      margin: 0 50px 0 0;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      li {
+        margin: 0 20px;
+        position: relative;
+      }
+    }
+  }
+}
